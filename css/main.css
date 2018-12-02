@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clear:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.headerfull{
+    background-color:rgba(0, 0, 0, 0.5);
+}
+.headerfull .header{
+    width:1200px;
+    height:50px;
+    margin:0 auto;
+}
+.headerfull .header img{
+    height:40px;
+    margin:5px 0;
+}
+.headerfull .header ul{
+    float:right;
+    margin:16px 0;
+}
+.headerfull .header ul li{
+    list-style: none;
+    float:left;
+    padding: 0 20px;
+    color:white;
+    border-right:1px solid black;
+}
+.headerfull .header ul li:last-child{
+    border-right:none;
+}
+.headerfull .header ul li:hover{
+    color:purple;
+}
+.bigphoto img{
+    width:100%;
+}
+.goodslist{
+    width:1200px;
+    margin:10px auto;
+
+
+}
+.goodslist .Alltitle1{
+    text-align: center
+}
+.goodslist .Alltitle1 h1{
+    color:green;
+    font-size:24px;
+    font-weight:normal;
+    margin-top:30px;
+    margin-bottom:5px;
+}
+.goodslist .Alltitle1 .title2{
+    font-size:10px;
+    color:slategrey;
+}
+.goodslist .Alltitle1 .title3{
+    margin-top:10px;
+    font-size:16px;
+    color:slategrey;
+    margin-bottom:10px;
+}
+.goodslist .goodsbox{
+    width:280px;
+    float:left;
+    margin:0 10px;
+    box-sizing: border-box;
+}
+.goodslist .goodsbox img{
+    width:280px;
+}
+.goodslist .goodsbox .goodstitle{
+    margin-top:6px;
+    font-size:20px;
+}
+.goodslist .goodsbox .goodsintroduce{
+    width:280px;
+    color:#757575;
+    margin-top:7px;
+    border-bottom:1px solid #aaaaaa;
+    padding-bottom:10px;
+}
+.storebox{
+    margin:0 auto;
+    width:1200px;
+}
+.storebox .Alltitle2{
+    text-align: center;
+    padding-top:20px;
+}
+.storebox .Alltitle2 h1{
+    font-size:24px;
+    font-weight:normal;
+    color:green;
+    margin-bottom:5px;
+}
+.storebox .Alltitle2 p{
+    color:#757575;
+    font-size:12px;
+    margin-bottom:5px;
+}
+.storebox .storelist{
+    height: 400px;
+}
+
+
+.storebox .storelist .shopping {
+    float:left;
+    position: relative;
+}
+.storebox .storelist .store1{
+    width:50%;
+}
+.storebox .storelist .store2{
+    width:50%;
+    height: 50%; 
+}
+.storebox .storelist .store3{
+    width:25%;
+    height: 50%;
+}
+.storebox .storelist .store4{
+    width:25%;
+    height: 50%;
+}
+.storebox .storelist .store1 img{
+    width:100%;
+    
+}
+.storebox .storelist .store2 img{
+    width:100%;
+    height:100%;
+    
+}
+.storebox .storelist .store3 img{
+    width:100%;
+    height:100%;
+    
+}
+.storebox .storelist .store4 img{
+    width:100%;
+    height:100%;
+    
+}
+   
+.storebox .storelist .shopping .storename{
+    position: absolute;
+    bottom: 0;
+    left:0;
+    background-color:rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.aboutus{
+    width:1200px;
+    margin:0 auto;
+}
+.aboutus .Alltitle2{
+    text-align: center;
+}
+.aboutus .Alltitle2 h1{
+    font-weight:normal;
+    margin-top:30px;
+    font-size:24px;
+    color:green;
+    margin-bottom:5px;
+}
+.aboutus .Alltitle2 p{
+    color:#757575;
+    font-size:12px;
+    margin-bottom:5px;
+}
+.aboutus .about img{
+    width:65%;
+    float:left;
+}
+.aboutus .about p {
+    width:414px;
+    float: left;
+    box-sizing: border-box;
+    margin-left:5px;
+}
+.footerfull {
+    background-color: #292929;
+   
+    margin-top:50px;
+}
+.footerfull .footer {
+    margin:0 auto;
+    width:1200px;
+    padding: 30px 0;
+}
+.footerfull .footer .footertop{
+    padding-bottom:10px;
+    border-bottom:1px solid #dddddd;
+
+}
+.footerfull .footer .footertop .left{
+    width:26%;
+    margin-right:0px;
+}
+.footerfull .footer .footertop div {
+    float: left;
+    color: #dddddd;
+    height: 124px;
+}
+.footerfull .footer .footertop .left p{
+    color:#dddddd;
+}
+.footerfull .footer .footertop .left{
+    width:27%;
+    border-right:1px solid #dddddd;
+}
+.footerfull .footer .footertop .middle{
+    text-align: center;
+    width:45%;
+    border-right:1px solid #dddddd;
+}
+.footerfull .footer .footertop .right{
+    width:27%;
+    text-align: right;
+}
+.footerfull .footer .footbottom p{
+    color:#dddddd;
+    margin-top:10px;
+}
+.side{
+    width:50px;
+    height:153px;
+    position:fixed;
+    top:50%;
+    right:0;
+    background-color:#292929;
+}
+.side .siderimg{
+    width:50px;
+    height:50px;
+    text-align: center;
+    border-bottom:1px solid #666666;
+}
+.side .siderimg:last-child{
+    border-bottom:none;
+}
+.side .siderimg img{
+    margin-top:10px;
+}
+
